@@ -4,8 +4,8 @@ from loss_functions import *
 
 start_time = time.time()
 
-data_train = UPuppiV0(home_dir + 'train/')
-data_test = UPuppiV0(home_dir + 'test/')
+data_train = UPuppiV0(home_dir + 'train5/')
+data_test = UPuppiV0(home_dir + 'test5/')
 BATCHSIZE = 64
 # model_name = "DynamicPointTransformer"
 # model_name = "modelv2_analysis"
